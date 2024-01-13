@@ -1,0 +1,70 @@
+/* Reset some default styles */
+
+
+
+
+@font-face {
+ font-family:'myfont';
+ src:url(fonts/Website.otf);
+}
+body, h1, h2, h3, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: verdana, sans-serif;
+    background: linear-gradient(
+                                to right,
+                                #222,
+                             #666666,
+                                #a69b9b
+                                );                              
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: black;
+align-items:center;
+    padding: 10px 0;
+}
+
+.brand img {
+width:50px;
+}
+nav li {
+    margin: 0 10px;
+    color: white;
+    font-size:1.3rem;
+}
+
+nav a {
+    text-decoration: none;
+    color:#def4e4;
+}
+
+main {
+    padding: 20px;
+}
+
+#album-art img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+#audio-player {
+    width: 100%;
+}
+
+#music-info h2 {
+    margin-top: 10px;
+}
+
+#music-info p {
+    color: #666;
+}
+

@@ -1,0 +1,17 @@
+a {
+    text-decoration: none;
+    color:#def4e4;
+}
+
+@media screen and (max-width: 420px)
+{
+
+div {
+ p {
+  font-size: 10px;
+}
+  }
+
+
+}
+
